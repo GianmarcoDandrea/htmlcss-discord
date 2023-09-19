@@ -22,7 +22,7 @@ img {
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -41,7 +41,10 @@ ul {
     display: flex;
 }
 
-
+.center-object{
+    justify-content: center;
+    align-items: center;
+}
 
 /* HEADER */
 
@@ -51,11 +54,8 @@ ul {
 }
 
 .header-bottom {
-    justify-content: center;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    align-items: center;
-
 }
 
 /* NAV */
@@ -151,63 +151,69 @@ li > a {
 .section-2, .section-4 {
     background-color: #d3d3d3;
 }
-.article {
-    height: 350px;
-}
- .text {
-    width: 60%;
-    background-color: #1e90ff;
- }
- .image {
-    width: 40%;
-    background-color: #ffc0cb;
- }
 
- .big-box{
+.article-image {
+    width: 65%;
+}
+
+.article-text {
+    width: 35%;
+}
+
+.article-title {
+    font-size: 3rem;
+}
+
+.article-subtext {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.big-box{
     width: 100%;
     height: 700px;
     background-color: #228b22;
- }
+}
 
  /* FOOTER */
 
- .footer-top {
+.footer-top {
     background-color: var(--bgcolor-footer);
     padding: 10px 0 40px;
- }
+}
 
- .footer-wrapper {
+.footer-wrapper {
     height: 600px;
- }
+}
 
- .footer-image {
+.footer-image {
     width: 28%;
     background-color: #f08080;
- }
+}
 
- .footer-info {
+.footer-info {
     width: 18%;
     background-color: #20b2aa;
- }
+}
 
- .hr-2 {
+.hr-2 {
     border: 2px solid #d6d6d6;
- }
+}
 
- .footer-bottom {
+.footer-bottom {
     background-color: var(--bgcolor-footer);
     padding-top: 40px;
- }
+}
 
- .footer-nav{
+.footer-nav{
     background-color: #7fffd4;
     height: 60px;
     align-items: center;
     justify-content: space-between;
- }
+}
  
- .footer-logo, .footer-button {
+.footer-logo, .footer-button {
     padding: 5px;
     background-color: var(--bgcolor-footer2);
- }
+}
 
