@@ -47,7 +47,7 @@ ul {
 .wave{
     height: 4rem;
     justify-content: stretch;
-    align-items:stretch ;
+    align-items:stretch;
     width: 100%;
     fill: var(--bgsection-color);
 }
