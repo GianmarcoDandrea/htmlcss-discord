@@ -41,6 +41,8 @@ ul {
     display: flex;
 }
 
+
+
 /* HEADER */
 
 .header-top {
@@ -52,6 +54,7 @@ ul {
     justify-content: center;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    align-items: center;
 
 }
 
@@ -72,7 +75,7 @@ ul {
 }
 
 li {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
 }
 
 li > a {
@@ -113,12 +116,12 @@ li > a {
 .hero-title {
     text-align: center;
     font-size: 3rem;
-    margin: 3.2rem;
+    margin: 2rem;
 }
 
 .hero-text {
-    padding: 0.5rem;
-    font-size: 1.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
 }
 
 .hero-button {
