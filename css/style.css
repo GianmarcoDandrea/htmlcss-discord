@@ -242,13 +242,11 @@ footer {
 }
 
 .footer-nav {
-    background-color: #7fffd4;
-    height: 60px;
+    border-top: 0.1rem solid #445074; 
+    padding-top: 2rem;
     align-items: center;
     justify-content: space-between;
 }
  
-.footer-logo, .footer-button {
-    padding: 5px;
-}
+
 
