@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
 /* ROOT */
-:root{
+:root {
     --bgcolor-footer:#23272a;
     --bgcolor-footer2:#ffb6c1;
 }
@@ -37,18 +37,18 @@ ul {
     list-style-type: none;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
 }
 
 /* HEADER */
 
-.header-top{
+.header-top {
     background-color: #255ee9;
     padding: 0.85rem;
 }
 
-.header-bottom{
+.header-bottom {
     justify-content: center;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -62,7 +62,7 @@ ul {
     align-items: center;
 }
 
-.link-section{
+.link-section {
     flex-grow: 1;
 }
 
@@ -71,9 +71,10 @@ ul {
     padding: 10px 10px ;
 }
 
-li{
+li {
     padding: 0 2rem;
 }
+
 li > a {
     color: white;
 }
@@ -84,12 +85,11 @@ li > a {
     padding: 10px 10px;
 }
 
-.login{
-    text-align: end;
+.login {
     justify-content: flex-end;
 }
 
-.login-text{
+.login-text {
     background-color: white;
     width: fit-content;
     padding: 0.6rem ;
@@ -99,11 +99,11 @@ li > a {
 
 /* HERO */
 
-.jumbo{
+.jumbo {
     position:relative;
 }
 
-.hero{
+.hero {
     position: absolute;
     width: 70%;
     text-align: center;
@@ -121,13 +121,13 @@ li > a {
     font-size: 1.5rem;
 }
 
-.hero-button{
+.hero-button {
     margin-top: 2rem;
     justify-content: center;
     gap: 2rem;
 
 }
-.mac-download{
+.mac-download {
     font-size: 1.5rem;
     color: black;
     background-color: white;
@@ -135,7 +135,7 @@ li > a {
     border-radius: 2rem;
 }
 
-.open-browser{
+.open-browser {
     align-self: center;
     font-size: 1.5rem;
     color: white;
