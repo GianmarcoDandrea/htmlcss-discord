@@ -25,7 +25,7 @@ a {
 }
 
 .padding {
-    padding: 40px 0;
+    padding: 40px 0 0 0 ;
 }
 ul {
     list-style-type: none;
@@ -40,8 +40,22 @@ ul {
     align-items: center;
 }
 
-/* HEADER */
+.wave{
+    height: 4rem;
+    justify-content: stretch;
+    align-items:stretch ;
+    width: 100%;
+}
 
+.wave-rotate{
+    transform: rotate(3.142rad);
+    height: 4rem;
+    justify-content: stretch;
+    align-items:stretch ;
+    width: 100%;
+}
+
+/* HEADER */
 .header-top {
     background-color: #255ee9;
     padding: 0.85rem;
@@ -134,7 +148,11 @@ li > a {
 
 /* MAIN */
 .section-2, .section-4 {
-    background-color: #f6f6f6;
+    background-color: #dfdfdf;
+} 
+
+.article {
+    padding-bottom: 3rem;
 }
 
 .article-image {
