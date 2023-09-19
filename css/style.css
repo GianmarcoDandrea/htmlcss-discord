@@ -188,6 +188,7 @@ li > a {
 
 /* FOOTER */
 footer {
+    padding: 2rem 0;
     background-color: #23272a;
 }
 
@@ -195,6 +196,7 @@ footer {
     padding: 10px 0 40px;
 }
 
+/* social and language */
 .footer-social {
     width: 25%;
 }
@@ -218,18 +220,28 @@ footer {
     width: 40%;
     justify-content: space-between;
 }
-
+ /* footer info */
 
 .footer-info {
     width: calc(75% / 4);
-    background-color: #20b2aa;
+}
+
+.footer-info-title{
+    color: #7189da;
+    font-size: 1.5rem;
+}
+
+.footer-link {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
 }
 
 .footer-bottom {
     padding-top: 40px;
 }
 
-.footer-nav{
+.footer-nav {
     background-color: #7fffd4;
     height: 60px;
     align-items: center;
