@@ -95,7 +95,7 @@ li > a {
 .login-text {
     background-color: white;
     width: fit-content;
-    padding: 0.6rem ;
+    padding: 0.6rem 1rem;
     border-radius: 1.3rem;
     color: black;
 }
