@@ -123,7 +123,7 @@ li > a {
 
 .header-button-wrapper{
     margin-top: 2rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 .mac-download{
@@ -134,6 +134,14 @@ li > a {
     border-radius: 2rem;
 }
 
+.open-browser{
+    align-self: center;
+    font-size: 2rem;
+    color: white;
+    background-color: #23272a;
+    border-radius: 2rem;
+    padding: 1rem;
+}
 
 /* MAIN */
 .section-2, .section-4 {
