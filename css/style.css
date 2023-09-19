@@ -10,8 +10,9 @@ img {
 }
 /* ROOT */
 :root {
-    --bgsection-color: #d2d2d2;
+    --bgsection-color: #eeeeee;
 }
+
 /* COMMON */
 
 * {
