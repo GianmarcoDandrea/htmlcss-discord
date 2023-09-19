@@ -53,11 +53,6 @@ ul {
     padding: 0.85rem;
 }
 
-.header-bottom {
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-}
-
 /* NAV */
 
 .nav {
@@ -102,9 +97,6 @@ li > a {
 
 /* HERO */
 
-.jumbo {
-    position:relative;
-}
 
 .hero {
     position: absolute;
@@ -122,6 +114,7 @@ li > a {
 .hero-text {
     padding: 0.3rem;
     font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 .hero-button {
@@ -165,18 +158,41 @@ li > a {
     margin-bottom: 2rem;
 }
 
-p.article-subtext {
+.article-subtext {
     font-size: 1.2rem;
     line-height: 1.8rem;
 }
 
-.big-box{
-    width: 100%;
-    height: 700px;
-    background-color: #228b22;
+/* section 4 */
+.article-text-4{
+    text-align: center;
 }
 
- /* FOOTER */
+.article-image-4{
+    width: 100%;
+}
+.ready {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.text-ready {
+    font-size: 1.8rem;
+    position: absolute;
+}
+.section4-button {
+    margin: 3rem 0;
+    justify-content: center;
+}
+.mac-download-4 {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #7289da;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+
+/* FOOTER */
 
 .footer-top {
     background-color: var(--bgcolor-footer);
