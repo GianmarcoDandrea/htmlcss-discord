@@ -68,6 +68,10 @@ ul {
     padding: 0.85rem;
 }
 
+.header-bottom {
+    position: relative;
+}
+
 /* NAV */
 
 .nav {
@@ -137,7 +141,7 @@ li > a {
 
 }
 .mac-download {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     color: black;
     background-color: white;
     padding: 1rem 1.5rem;
@@ -146,7 +150,7 @@ li > a {
 
 .open-browser {
     align-self: center;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     color: white;
     background-color: #23272a;
     border-radius: 2rem;
@@ -189,8 +193,9 @@ li > a {
     width: 100%;
 }
 .ready {
-    margin-top: 3rem;
     text-align: center;
+    position: relative;
+    padding-top: 3rem;
 }
 
 .text-ready {
@@ -224,11 +229,13 @@ footer {
     width: 25%;
     padding-right: 2rem;
 }
+
 .social-title {
     font-size: 1.8rem;
     color: #7189da;
     margin-bottom: 1.5rem;
 }
+
 .language {
     color: white;
     font-size: 1rem;
@@ -240,10 +247,15 @@ footer {
 }
 
 .social-icon {
-    color: white;
     width: 40%;
     justify-content: space-between;
+    text-decoration: none;
 }
+
+.fa-brands {
+    color: white; 
+}
+
  /* footer info */
 
 .footer-info {
