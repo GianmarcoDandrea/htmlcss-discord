@@ -242,11 +242,20 @@ footer {
 }
 
 .footer-nav {
+    padding-top: 1rem;
     border-top: 0.1rem solid #445074; 
-    padding-top: 2rem;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
- 
+
+.footer-signin {
+    font-size: 0.7rem;
+    background-color: #7289da;
+    width: fit-content;
+    padding: 0.6rem 1rem;
+    border-radius: 1.3rem;
+    color: white;
+
+}
 
 
