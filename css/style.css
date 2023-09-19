@@ -193,7 +193,7 @@ footer {
 }
 
 .footer-top {
-    padding: 10px 0 40px;
+    padding: 1.5rem 0;
 }
 
 /* social and language */
@@ -238,7 +238,7 @@ footer {
 }
 
 .footer-bottom {
-    padding-top: 40px;
+    padding-top: 2rem;
 }
 
 .footer-nav {
