@@ -123,11 +123,12 @@ li > a {
 
 .hero-button{
     margin-top: 2rem;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2rem;
 
 }
 .mac-download{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: black;
     background-color: white;
     padding: 1rem;
@@ -136,7 +137,7 @@ li > a {
 
 .open-browser{
     align-self: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     background-color: #23272a;
     border-radius: 2rem;
