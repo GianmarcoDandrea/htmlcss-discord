@@ -1,0 +1,162 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ROOT */
+:root{
+    --bgcolor-footer:#23272a;
+    --bgcolor-footer2:#ffb6c1;
+}
+
+/* COMMON */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.border {
+    border: 1px dashed black;  
+}
+
+.padding {
+    padding: 40px 0;
+}
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+.header-top{
+    background-color: #add8e6;
+    padding: 0.85rem;
+}
+
+.header-bottom{
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* NAV */
+
+.nav {
+    display: flex;
+    background-color: #daa520;
+    font-size: 1.5rem;
+}
+
+.link-section{
+    flex-grow: 1;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px ;
+}
+
+li{
+    padding: 0 10px;
+}
+
+.logo, .login {
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.login{
+    text-align: end;
+    text-decoration: none;
+    color: black;
+}
+
+/* BANNER */
+.banner{
+    background-color: #ee82ee;
+    height: 300px;
+    width: 50%;
+}
+
+.hr-1{
+    border: 2px solid #92b6d8;
+}
+
+/* MAIN */
+.section-2, .section-4 {
+    background-color: #d3d3d3;
+}
+.article {
+    display: flex;
+    height: 350px;
+}
+ .text {
+    width: 60%;
+    background-color: #1e90ff;
+ }
+ .image {
+    width: 40%;
+    background-color: #ffc0cb;
+ }
+
+ .big-box{
+    width: 100%;
+    height: 700px;
+    background-color: #228b22;
+ }
+
+ /* FOOTER */
+
+ .footer-top {
+    background-color: var(--bgcolor-footer);
+    padding: 10px 0 40px;
+ }
+
+ .footer-wrapper {
+    height: 600px;
+    display: flex;
+ }
+
+ .footer-image {
+    width: 28%;
+    background-color: #f08080;
+ }
+
+ .footer-info {
+    width: 18%;
+    background-color: #20b2aa;
+    border: 1px dashed white;
+ }
+
+ .hr-2 {
+    border: 2px solid #d6d6d6;
+ }
+
+ .footer-bottom {
+    background-color: var(--bgcolor-footer);
+    padding-top: 40px;
+ }
+
+ .footer-nav{
+    background-color: #7fffd4;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .footer-logo, .footer-button {
+    padding: 5px;
+    background-color: var(--bgcolor-footer2);
+ }
+
