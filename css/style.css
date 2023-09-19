@@ -49,7 +49,7 @@ ul {
 }
 
 .wave-rotate{
-    transform: rotate(3.142rad);
+    transform: rotate(180deg);
     height: 4rem;
     justify-content: stretch;
     align-items:stretch ;
