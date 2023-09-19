@@ -199,6 +199,7 @@ footer {
 /* social and language */
 .footer-social {
     width: 25%;
+    padding-right: 2rem;
 }
 .social-title {
     font-size: 1.8rem;
@@ -228,13 +229,13 @@ footer {
 
 .footer-info-title {
     color: #7189da;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .footer-link {
     color: white;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
+    font-size: 1.1rem;
+    line-height: 3rem;
 }
 
 .footer-bottom {
