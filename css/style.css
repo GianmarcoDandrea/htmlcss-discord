@@ -45,6 +45,7 @@ ul {
     justify-content: stretch;
     align-items:stretch ;
     width: 100%;
+    fill: #dfdfdf;
 }
 
 .wave-rotate{
@@ -53,6 +54,7 @@ ul {
     justify-content: stretch;
     align-items:stretch ;
     width: 100%;
+    fill: #dfdfdf;
 }
 
 /* HEADER */
