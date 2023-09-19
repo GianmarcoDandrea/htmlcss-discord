@@ -158,11 +158,11 @@ li > a {
 }
 
 /* section 4 */
-.article-text-4{
+.article-text-4 {
     text-align: center;
 }
 
-.article-image-4{
+.article-image-4 {
     width: 100%;
 }
 .ready {
@@ -226,7 +226,7 @@ footer {
     width: calc(75% / 4);
 }
 
-.footer-info-title{
+.footer-info-title {
     color: #7189da;
     font-size: 1.5rem;
 }
@@ -255,7 +255,6 @@ footer {
     padding: 0.6rem 1rem;
     border-radius: 1.3rem;
     color: white;
-
 }
 
 
