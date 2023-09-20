@@ -102,9 +102,6 @@ li > a {
 
 .login {
     justify-content: flex-end;
-}
-
-.login-text {
     background-color: white;
     width: fit-content;
     padding: 0.6rem 1rem;
