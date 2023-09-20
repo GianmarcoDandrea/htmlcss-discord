@@ -8,6 +8,7 @@
 img {
     max-width: 100%;
 }
+
 /* ROOT */
 :root {
     --bgsection-color: #eeeeee;
@@ -29,7 +30,7 @@ a {
 }
 
 .padding {
-    padding: 40px 0 0 0 ;
+    padding: 40px 0 0 0;
 }
 
 ul {
@@ -40,24 +41,24 @@ ul {
     display: flex;
 }
 
-.center-object{
+.center-object {
     justify-content: center;
     align-items: center;
 }
 
-.wave{
+.wave {
     height: 4rem;
     justify-content: stretch;
-    align-items:stretch;
+    align-items: stretch;
     width: 100%;
     fill: var(--bgsection-color);
 }
 
-.wave-rotate{
+.wave-rotate {
     transform: rotate(180deg);
     height: 4rem;
     justify-content: stretch;
-    align-items:stretch ;
+    align-items: stretch;
     width: 100%;
     fill: var(--bgsection-color);
 }
@@ -91,11 +92,11 @@ li {
     padding: 0 1rem;
 }
 
-li > a {
+li>a {
     color: white;
 }
 
-.logo, 
+.logo,
 .login {
     width: 20%;
 }
@@ -137,6 +138,7 @@ li > a {
     gap: 2rem;
 
 }
+
 .mac-download {
     font-size: 1.15rem;
     color: black;
@@ -155,9 +157,10 @@ li > a {
 }
 
 /* MAIN */
-.section-2, .section-4 {
+.section-2,
+.section-4 {
     background-color: var(--bgsection-color);
-} 
+}
 
 .article {
     padding-bottom: 6rem;
@@ -189,6 +192,7 @@ li > a {
 .article-image-4 {
     width: 100%;
 }
+
 .ready {
     text-align: center;
     position: relative;
@@ -199,10 +203,12 @@ li > a {
     font-size: 1.8rem;
     position: absolute;
 }
+
 .section4-button {
     padding: 3rem 0;
     justify-content: center;
 }
+
 .mac-download-4 {
     font-size: 1.5rem;
     color: white;
@@ -250,10 +256,10 @@ footer {
 }
 
 .fa-brands {
-    color: white; 
+    color: white;
 }
 
- /* footer info */
+/* footer info */
 
 .footer-info {
     width: calc(75% / 4);
@@ -276,7 +282,7 @@ footer {
 
 .footer-nav {
     padding-top: 1rem;
-    border-top: 0.1rem solid #445074; 
+    border-top: 0.1rem solid #445074;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -289,5 +295,3 @@ footer {
     border-radius: 1.3rem;
     color: white;
 }
-
-
